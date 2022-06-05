@@ -1,6 +1,7 @@
 let userRate = document.querySelector("#userFeedbackContainer");
 let feedCont = document.querySelector("#feedbackContainer");
 let rateCont = document.querySelector("#mainContainer");
+let rateBTNs = document.querySelectorAll(".rattingBTN");
 let rate1 = document.querySelector("#rat1");
 let rate2 = document.querySelector("#rat2");
 let rate3 = document.querySelector("#rat3");
@@ -19,16 +20,26 @@ submit.addEventListener("click", () => {
 });
 rate1.addEventListener("click", () => {
   setRating(1);
+  rate1.style.background = "rgb(149, 158, 172)";
+  rate1.style.color = "rgb(255, 255, 255)";
 });
 rate2.addEventListener("click", () => {
   setRating(2);
+  rate2.style.background = "rgb(149, 158, 172)";
+  rate2.style.color = "rgb(255, 255, 255)";
 });
 rate3.addEventListener("click", () => {
   setRating(3);
+  rate3.style.background = "rgb(149, 158, 172)";
+  rate3.style.color = "rgb(255, 255, 255)";
 });
 rate4.addEventListener("click", () => {
   setRating(4);
+  rate4.style.background = "rgb(149, 158, 172)";
+  rate4.style.color = "rgb(255, 255, 255)";
 });
 rate5.addEventListener("click", () => {
   setRating(5);
+  rate5.style.background = "rgb(149, 158, 172)";
+  rate5.style.color = "rgb(255, 255, 255)";
 });
