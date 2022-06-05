@@ -9,8 +9,13 @@ let rate4 = document.querySelector("#rat4");
 let rate5 = document.querySelector("#rat5");
 let submit = document.querySelector("#submit");
 let rate = 0;
+let selected = false;
 function setRating(rating) {
   rate = rating;
+  for (i = 0; i < rateBTNs.length; i++) {
+    rateBTNs[i].style.background = "rgb(37, 45, 55)";
+    rateBTNs[i].style.color = "rgb(149, 158, 172)";
+  }
 }
 submit.addEventListener("click", () => {
   userRate.style.display = "flex";
